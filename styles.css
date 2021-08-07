@@ -1,0 +1,325 @@
+body { 
+      margin: 0;
+      padding: 0;
+      background-color: rgb(152, 223, 152);     
+}
+
+nav { 
+    color: rgb(243, 236, 236);
+}
+/*
+#navList{
+    display: inline-block;
+    margin: 0;
+    background-color: rgb(43, 145, 106);    
+    font-size: 25px;
+    color: rgb(248, 242, 242);
+} */
+ 
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkturquoise;
+    
+  }
+  
+nav li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Change the link color to black on hover */
+  li a:hover {
+    background-color: #111;
+  }
+   
+ /*#green-background {
+        background-color: rgb(109, 177, 109)
+     }*/
+
+
+
+/*.black-border {
+    border: 3px solid black;
+}*/
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+
+.center {
+    text-align: center;
+}
+
+
+/*.font-size {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}*/
+
+/*.border {
+    border: 3px hidden red;
+    height: 200px;
+    width: 200px;
+    padding: 505px 50px 75px;
+  }*/
+
+section {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(13, 10, 22, 0.301);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#section-article {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.aside {
+    text-align: left;
+    font-size: 18px;
+    color: darkslateblue;
+    background-color: transparent;
+}
+.aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkturquoise;
+
+}
+#aside li {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: right;
+}
+
+aside a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  } 
+
+h1 {
+   /* font-size: 45px;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(17, 15, 19);
+    font-size: 2.5rem;
+}
+
+/*h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(13, 10, 22, 0.301);
+}*/
+
+/*h3 {
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(49, 33, 97, 0.301);
+} */
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(17, 14, 26, 0.301);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 2rem 2rem;
+}
+
+.footer {
+    color: cornsilk;
+    text-align: center;
+    font-family: monospace;
+    font-size: 11;
+    background-color: rgb(68, 26, 58);
+    margin: 0;
+}
+
+.container {
+    margin-top:5px;
+    margin-left:5px;
+    }
+
+    .container ul {
+    color: #E59934;
+    }
+    .container ul li {
+    margin:5px;
+    padding:5px;
+    width: 100px;
+    height:70px;
+    float: left; 
+    border: 1px solid lightgray;
+    list-style:none;
+    }
+    .container ul li:hover {
+    border: 1px solid orange;
+    }
+
+    /*Gallery */
+    #gallery {
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+       /* line-height:0;*/
+       /* -webkit-column-count:3; /* split into 3 columns */
+       /* -webkit-column-gap:10px; /* 10px between columns */
+       /* -moz-column-count:3;*/
+       /* -moz-column-gap:5px;*/
+       /*column-count:3;*/
+       /* column-width: 300px;*/
+       /* column-gap:5px; 
+        display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    }
+
+    img {
+        width: 100%;
+      }
+
+    #gallery img {
+        padding-left: 2%;
+        padding-right: 2%;
+       /* width: 100% !important;
+        max-width: 400px;
+        width: 100%;
+        height: auto !important;
+        margin: 0 auto 15px;
+        margin-bottom:5px; /* matching column margin */
+        /*box-sizing: border-box;*/
+    } 
+   
+    .indexPhoto {
+        display: inline-block;
+        width: 350px;
+        height: 250px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+     
+    .photo {
+        background-image: -webkit-linear-gradient();
+        margin: 0 auto;
+    }
+    
+    /* Mobile */
+    /* @media only screen and (min-width: 480px){
+        body{
+        background-color: rgb(73, 117, 73);
+            }
+    } */
+
+    @media only screen and (max-width: 660px){
+        h1{
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (max-width: 660px){
+        h2{
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-width: 660px){
+        h3{
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-width: 660px){
+        p{
+            font-size: 11px;
+        }
+    }
+
+    @media only screen and (max-width: 660px){
+        #section {
+            font-size: 14px;
+        }
+    }
+
+
+    @media only screen and (max-width: 660px){
+        #section-article{
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-width: 660px){
+        .indexPhoto{
+        display: inline-block;
+        width: 250px;
+        height: 170px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        }
+    }
+
+    @media only screen and (max-width: 660px){
+        #gallery{
+            display: list-item;
+            font-size: 13px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        body{
+            background-color: darkturquoise;
+            color: rgb(95, 34, 72);
+            font-size: smaller;
+            
+        }
+    }
